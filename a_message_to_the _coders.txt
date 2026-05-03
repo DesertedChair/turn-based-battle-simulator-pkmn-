@@ -1,0 +1,128 @@
+When I wrote this code, only God and I know what it did.
+Now... only God knows
+If you're reading this; Let this serve as a warning for future programmers.
+I ask of you to increase this counter for every attempt done, working on this code.
+So that they too shall know the horrors of what has transpired here.
+
+Counter = 69 + 9
+
+Change Logs:
+
+[Bendo]
+    Changes V0.1.0-0.2.0
+        Worked on the general outline of the code
+
+    Changes V0.2.0-0.2.5
+        Added Team_Selection (needs the rest of the pokemons to be added & needs to redecorated)
+
+    Changes V0.2.6-0.2.8
+        Connected Team_Selection to the Backend code
+        Added the Frontend to Choose_Game_Mode
+        Connected Choose_Game_Mode to Team_Selection
+
+[Adrian]
+	Changes V0.2.8.2
+		Added a page two and function to toggle pages
+		Added new Pokemons in team selection
+
+[IMPORTANT NOTE]
+    Changes V0.2.8.3
+        Mr. Mime entry on Battle Related Button Initialization is entered as self.mrmime = QPushButton(self)
+        All Battle Related Button Initialization for Pokemons are added
+        Pokemon Selection Page 2 & 3 Completed
+        Pokemon Selection Page 4 - On going
+		
+[Adrian]
+	Changes V0.2.9
+		Finished adding all 151 Pokemon for team selection
+		fixes the issue where Doduo's sprite aren't showing
+		changed "Ultra Instinct" to "Calls the UI"
+
+[Bendo]
+    Changes V0.3.0-0.3.1
+        Added Battle class, only the players turn for now
+    Changes V0.3.2
+        Added opponents turn
+        Added battle messages
+        Added timers for readability
+        Adjusted battle logic to account for both players
+        Added speed priority
+        Added move button update
+    Changes V0.3.3
+        Changed the appearance of mode selection buttons and Dialogbox
+        added dual display for dialog box using Queue Stack
+    Changes V0.3.4
+        added animations for text display
+        added automatic pokemon switching when a pokemon faints
+    Changes V0.3.5-0.3.6
+        added status moves
+        added drain moves
+        added recoil moves
+        added multi hit moves
+    Changes V0.3.7
+        [Bugs fixed]
+        multi hit moves needs to be shown hitting one at a time
+        drain moves not draining when oneshotting pokemons
+        damage not shown when one shotting pokemons
+        the turn must be skipped immediately when you switched pokemon
+        Giga-impact does 0 damage
+        HP drain must increase the HP progress bar
+        [Update]
+        added 2 player mode (buttons not finalized)
+    Changes V0.3.8
+        [Bugs fixed]
+        Opponent, not switching when defeated with a Multi hit move
+        Fixed Farfetched loading error
+        Aliigned Buttons
+        Worked on 2 Player mode (Switching still problematic)
+		
+[Adrian]
+	Changes V0.3.9
+		Added a background and Pokemon Icons when switching Pokemon
+
+[Bendo]
+    Changes V0.4.0
+        Fixed 2 Player switching logic
+        Fixed 2 Player Faint switching
+        Fixed 2 Player attack sequence
+    Changes V0.4.1
+        Fixed 1 Player mode conflict with 2 Player mode
+    Changes V0.4.2-0.4.3
+        Added move animations
+        Added leaderboards (needs more work)
+
+[Adrian]
+	Changes V0.4.4
+		Added an animation for each attack type.
+
+[Bendo]
+    Changes V0.4.5
+        Fixed Leaderboard score not updating
+        Added type effectiveness messages
+        Added Leaderboard sorting by Name (ascending)
+        Added Leaderboard sorting by Name (descending)
+        Added Leaderboard sorting by Score (ascending)
+        Added Leaderboard sorting by Score (ascending)
+    Changes V0.4.6
+        Designed Title Screen
+    Changes V0.4.7
+        Added Challenge Mode
+		
+[Adrian]
+	Changes V0.4.8
+		Added About us and How to Play windows.
+		Updated the button sprite for Challenge mode.
+[Bendo]
+    Changes V0.4.9
+		Added Music
+		Added Animations
+        Added Elite 4
+	Changes V0.5
+		Fixed the bug in music
+		Created an executable
+
+
+To add executable, type:
+    pip install auto-py-to-exe
+then,
+    auto-py-to-exe
